@@ -29,7 +29,7 @@ li {
 
 .column {
 	width: 30%;
-	margin: 0 1%;
+	margin: 30px 1%;
 	float: left;
 	border: 2px solid #ccc;
 	min-height: 500px;
@@ -42,7 +42,7 @@ li {
 .column-container {
 	display: flex;
 	flex-direction: row;
-	flex-wrap: nowrap;
+	
 
 	display: -webkit-flex;
 	justify-content: center;
@@ -58,7 +58,7 @@ li {
 	margin-bottom : 20px;
 	color: #01615C;	
 	border-color: #01615C;
-	text-align: center;
+	
 }
 
 .create-column:hover {
@@ -79,6 +79,15 @@ h1, h2 {
 h2 {
 	font-size: 40px;
 	color: #99BBBD;
+}
+
+.button {
+	display: flex;
+	flex-direction: row;
+	
+	display: -webkit-flex;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 
 .btn-delete {
